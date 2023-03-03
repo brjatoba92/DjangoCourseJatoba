@@ -1,1 +1,1 @@
-web: gunicorn pyprojat2023.wsgi --log-file -
+web: run-program gunicorn pyprojat2023.wsgi --log-file -
