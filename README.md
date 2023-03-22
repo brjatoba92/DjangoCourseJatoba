@@ -263,4 +263,6 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 ```
 
 
-Github Actions (STOP)
+Github Actions
+
+1. Create django.yml
