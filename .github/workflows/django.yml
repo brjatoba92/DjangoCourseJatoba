@@ -14,7 +14,7 @@ jobs:
     name: Continuos Integration
     runs-on: ubuntu-latest
     env:
-      DATABASE_URL: postgres://pyprojatdjfly:pyprojatdjfly@postgres:5432/pyprojatdjfly
+      DATABASE_URL: postgres://pyprojatdjfly:pyprojatdjfly@localhost:5432/pyprojatdjfly
 
     services:
       postgres:
