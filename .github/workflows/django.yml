@@ -41,7 +41,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Setup .env
-      run: cp .env_example .env
+      run: cp .env.example .env
 
     - name: Run Tests
       run: |
