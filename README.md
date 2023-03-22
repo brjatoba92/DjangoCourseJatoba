@@ -266,3 +266,6 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 Github Actions
 
 1. Create django.yml
+```console
+https://github.com/brjatoba92/DjangoCourseJatoba/actions/new
+```
