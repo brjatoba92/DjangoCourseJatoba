@@ -269,3 +269,4 @@ Github Actions
 ```console
 https://github.com/brjatoba92/DjangoCourseJatoba/actions/new
 ```
+2. Test
