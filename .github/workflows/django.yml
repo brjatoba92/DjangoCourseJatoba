@@ -58,5 +58,5 @@ jobs:
       FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
     steps:
       - uses: actions/checkout@v3
-      - uses: superfly/flyctl-actions/setup-flyctl@main
-      - run: flyctl deploy --remote-only
+      - uses: superfly/fly-actions/setup-fly@master
+      - run: fly deploy --remote-only
