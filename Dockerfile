@@ -17,4 +17,4 @@ COPY . /app/
 
 EXPOSE 8000
 
-ENTRYPOINT [ "./start.sh" ]
+CMD ["gunicorn", "--bind", ":8000", "--workers", "2", "fly_django_project.wsgi"]
